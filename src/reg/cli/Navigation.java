@@ -23,7 +23,7 @@ public class Navigation {
 
 	static Execute exec = new Execute();
 
-	public static void main(String[] args) {
+	public static void travel() {
 
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Reg4J#:");

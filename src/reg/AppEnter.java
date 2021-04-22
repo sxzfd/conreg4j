@@ -19,7 +19,7 @@ public class AppEnter {
 				+ "ls, exit.\n that version include{working,bic,bfc}\\n");
 		Db.bugs = Utils.readFileByLines("bugs.csv");
 		try {
-			Navigation.main(args);
+			Navigation.travel();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
