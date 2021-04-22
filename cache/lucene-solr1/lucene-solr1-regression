@@ -1,2 +1,0 @@
-public final static long WRITE_LOCK_TIMEOUT = 1000;
-public final static long COMMIT_LOCK_TIMEOUT = 10000;
